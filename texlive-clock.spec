@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/clock
+# catalog-date 2008-04-19 23:05:28 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-clock
 Version:	20080419
 Release:	1
@@ -50,6 +56,7 @@ expandable; the default uses a custom MetaFont font.
 %doc %{_texmfdistdir}/doc/latex/clock/README
 %doc %{_texmfdistdir}/doc/latex/clock/clockdoc.pdf
 %doc %{_texmfdistdir}/doc/latex/clock/clockdoc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ expandable; the default uses a custom MetaFont font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
