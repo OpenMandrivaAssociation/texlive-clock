@@ -57,3 +57,18 @@ expandable; the default uses a custom MetaFont font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080419-2
++ Revision: 750254
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080419-1
++ Revision: 718071
+- texlive-clock
+- texlive-clock
+- texlive-clock
+- texlive-clock
+- texlive-clock
+
