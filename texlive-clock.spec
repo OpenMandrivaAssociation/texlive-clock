@@ -5,8 +5,8 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-clock
-Version:	20080419
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Graphical and textual clocks for TeX and LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/clock
