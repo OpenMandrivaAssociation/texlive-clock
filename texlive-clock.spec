@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Graphical and textual clocks for TeX and LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/clock
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/clock
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/clock.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/clock.doc.r%{version}.tar.xz
